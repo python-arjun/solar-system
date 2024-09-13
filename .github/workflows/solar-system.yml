@@ -32,9 +32,9 @@ jobs:
       - name: Unit Testing
         run: npm test
 
-      - name: Archeive Test Results
+      - name: Archive Test Result
         uses: actions/upload-artifact@v3
         with:
-          name: Mocha-test-result
-          path: test-result.xml
+          name: Mocha-Test-Result
+          path: test-results.xml
     
